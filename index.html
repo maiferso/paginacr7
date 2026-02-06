@@ -2,9 +2,14 @@
 ---
 {% include header.html %}
 <body>
+
+    <!-- NAVBAR -->
     <header class="navbar">
-        <div class="logo">CR7<span>PORTFOLIO</span></div>
-        <nav>
+        <div class="logo">
+            CR7<span>PORTFOLIO</span>
+        </div>
+
+        <nav aria-label="Navegación principal">
             <ul class="nav-links">
                 <li><a href="index.html" class="active">Inicio</a></li>
                 <li><a href="trayectoria.html">Trayectoria</a></li>
@@ -14,13 +19,26 @@
         </nav>
     </header>
 
+    <!-- HERO -->
     <main class="hero">
-        <div class="hero-content">
-            
-            <h1>Cristiano <br> <span>Ronaldo</span></h1>
-            <p>El máximo goleador en la historia del fútbol profesional.</p>
-            <a href="trayectoria.html" class="btn">Explorar Legado</a>
-        </div>
+        <section class="hero-content container">
+            <span class="hero-tag">Leyenda del fútbol</span>
+
+            <h1>
+                Cristiano <br>
+                <span>Ronaldo</span>
+            </h1>
+
+            <p>
+                El máximo goleador en la historia del fútbol profesional,
+                referente mundial de disciplina, talento y legado eterno.
+            </p>
+
+            <div class="hero-actions">
+                <a href="trayectoria.html" class="btn">Explorar legado</a>
+                <a href="galeria.html" class="btn btn-outline">Ver galería</a>
+            </div>
+        </section>
     </main>
 
 </body>
